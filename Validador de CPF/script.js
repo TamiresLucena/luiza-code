@@ -28,6 +28,7 @@ function validar() {
     var cpf = document.getElementById('cpf').value;
     console.log(cpf);
 
+
     var isValid = validaCPF(cpf);
     if (isValid) document.getElementById('success').style.display = 'block';
     else document.getElementById('error').style.display = 'block';
